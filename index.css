@@ -153,12 +153,12 @@ span {
   width: 20vw;
   min-width: 200px;
   border-radius: 40%;
-  box-shadow: 0 0 25px #a53131;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 .home-img img:hover {
+  box-shadow: 0 0 25px #a53131;
   transform: scale(1.05);
 }
 
@@ -329,3 +329,4 @@ h1.finished {
   }
 
 }
+
