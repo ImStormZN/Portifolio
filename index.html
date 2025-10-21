@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portifilio</a>
+        <nav>
+            <a href="#" class="active">Principal</a>
+            <a href="#">Projetos</a>
+            <a href="#">Sobre Mim</a>
+            <a href="#">Contatos</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="img.jpeg">
+        </div>
+        <div class="home-content">
+            <h1 id="titulo">Olá, me chamo <span>Kauan</span></h1>
+            <p>Olá! Sou um desenvolvedor apaixonado por tecnologia, inovação e resolução de problemas. Tenho experiência em [linguagens principais, ex: C, Python, JavaScript], e gosto de transformar ideias em soluções práticas e eficientes.
+                Neste portfólio, apresento alguns dos meus projetos, que refletem minha evolução como programador, meu cuidado com a qualidade do código e minha busca constante por aprendizado.
+                
+                Meu foco é criar aplicações que unam performance, design e funcionalidade, sempre explorando boas práticas de desenvolvimento e novas tecnologias.
+                
+                Sinta-se à vontade para explorar meus trabalhos — cada projeto conta uma parte da minha jornada no mundo da programação. 🚀
+            </p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Interessado?</a>
+        </div>
+    </section>
+    <script>
+        const titulo = document.getElementById('titulo');
+        // Duração da animação (3s) + pequeno atraso para garantir o fim
+        setTimeout(() => {
+          titulo.classList.add('finished');
+        }, 3200);
+      </script>
+
+</body>
+</html>
